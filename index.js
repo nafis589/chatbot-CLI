@@ -1,10 +1,6 @@
-//ne fais pas d'auto-completion
-
 import genAI from "./config/gen-ai.js";
 import readlineSync from "readline-sync";
 import colors from "colors";
-
-const chatHistory = [];
 
 async function main() {
   console.log(colors.bold.green("Welcome to the Generative AI CLI!"));
