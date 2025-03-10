@@ -6,6 +6,7 @@ async function main() {
   console.log(colors.bold.green("Welcome to the Generative AI CLI!"));
   console.log(colors.bold.green("you can start chatting with the AI now!"));
 
+  const chatHistory = [];
   while (true) {
     const userInput = readlineSync.question(colors.yellow("You: "));
     try {
@@ -20,7 +21,7 @@ async function main() {
 
       console.log(colors.green("Bot: ") + result.response.text());
     } catch (error) {
-      console.error(oolors.red(error));
+      console.error(colors.red(error));
     }
   }
 }
