@@ -11,6 +11,16 @@ A powerful command-line chatbot powered by Google's Gemini AI, offering intellig
 
 </div>
 
+## 🚀 Demo
+
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-brightgreen?style=for-the-badge&logo=vercel)]()
+
+<img src="/public/image.png" alt="SkyWings Demo" width="600" />
+
+</div>
+
 ## 🌟 Features
 
 - 💬 Interactive CLI-based chat interface
