@@ -1,61 +1,82 @@
-# 🤖 Chatbot CLI avec IA (Gemini)
+<div align="center">
 
-## Description
-Ce projet est un chatbot en ligne de commande (CLI) permettant aux utilisateurs de communiquer avec une intelligence artificielle (IA) générative. Il utilise l'API de Google Gemini pour générer des réponses basées sur les entrées utilisateur.
+<h1 style="font-size: 6rem; font-weight: 900; margin: 2rem 0; padding: 1rem; color: #0055ff; background: linear-gradient(135deg, #0070f3, #00c6ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 4px 4px 8px rgba(0,0,0,0.2); letter-spacing: 2px; line-height: 1.1; transform: scale(1.05); display: inline-block;">🤖 Gemini AI Chatbot CLI</h1>
 
-## 📌 Fonctionnalités
-- 💬 Interaction fluide avec l'IA
-- 📝 Gestion de l'historique des conversations
-- 🎨 Affichage coloré pour une meilleure lisibilité
-- ⚠️ Gestion des erreurs et des problèmes de connexion
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## 🛠 Technologies utilisées
-- **Langage :** JavaScript (Node.js)
-- **API IA :** Google Gemini API
-- **Modules :** `readline-sync`, `colors`
+A powerful command-line chatbot powered by Google's Gemini AI, offering intelligent conversations with chat history management and a colorful interface.
 
-## 🚀 Installation et utilisation
+</div>
 
-### Prérequis
-- **Node.js** installé sur votre machine
-- Une clé API valide pour Google Gemini
+## 🌟 Features
 
-### Installation
-```sh
-# Cloner le projet
-git clone https://github.com/ton-user/chatbot-cli.git
+- 💬 Interactive CLI-based chat interface
+- 🧠 Powered by Google's advanced Gemini AI model
+- 📝 Persistent chat history during sessions
+- 🎨 Colorful and user-friendly console output
+- 🚀 Easy-to-use command-line interface
+- ⚡ Fast and responsive interactions
+
+## 🛠️ Tech Stack
+
+- **Runtime**: Node.js
+- **AI Model**: Google Gemini AI
+- **Dependencies**:
+  - `@google/generative-ai`: Google's Generative AI SDK
+  - `colors`: Console text styling
+  - `dotenv`: Environment variable management
+  - `readline-sync`: Synchronous CLI input handling
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
 cd chatgpt-chatbot
+```
 
-# Installer les dépendances
+2. Install dependencies:
+```bash
 npm install
 ```
 
-### Configuration
-Créez un fichier `.env` à la racine du projet et ajoutez votre clé API :
-```
-API_KEY=your_api_key_here
+3. Set up environment variables:
+   - Create a `.env` file in the root directory
+   - Add your Gemini API key:
+```env
+GEMINI_API_KEY=your_api_key_here
 ```
 
-### Exécution
-```sh
+## 🚀 Usage
+
+1. Start the chatbot:
+```bash
 npm start
 ```
 
-## 🔧 Personnalisation
-Vous pouvez modifier le modèle d'IA utilisé dans le fichier `config/gen-ai.js` en changeant le modèle de l'API.
+2. Start chatting with the AI:
+   - Type your message and press Enter
+   - Type 'exit' to end the conversation
 
-## 🛠 Prochaines améliorations
-- Intégration d'une interface graphique (Web/App)
-- Support multi-langues
-- Enregistrement des conversations
+## 💡 Example Interaction
 
-## 📜 Licence
-Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
+```
+Welcome to the Generative AI CLI!
+you can start chatting with the AI now!
+You: Hello, how are you?
+Bot: Hi! I'm doing well, thank you for asking. How can I assist you today?
+You: exit
+```
 
-## 📞 Contact
-Pour toute question ou suggestion, n'hésitez pas à me contacter via [LinkedIn](https://www.linkedin.com/in/princenafistoure) ou ouvrir une issue sur GitHub.
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-✨ _Développé avec passion par TOURE Prince Nafis
-
+<div align="center">
+Made with ❤️ by TOURE Prince Nafis
+</div>
